@@ -11,6 +11,10 @@
 		D692411D2AEB9C85001FFCD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D692411C2AEB9C85001FFCD5 /* ContentView.swift */; };
 		D692411F2AEB9C87001FFCD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D692411E2AEB9C87001FFCD5 /* Assets.xcassets */; };
 		D69241222AEB9C87001FFCD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69241212AEB9C87001FFCD5 /* Preview Assets.xcassets */; };
+		D692412C2AEBA80B001FFCD5 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D692412B2AEBA80B001FFCD5 /* KeyBoardView.swift */; };
+		D69241302AEBAAFB001FFCD5 /* PickerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D692412F2AEBAAFB001FFCD5 /* PickerViews.swift */; };
+		D69241322AEBB579001FFCD5 /* TotalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69241312AEBB579001FFCD5 /* TotalsView.swift */; };
+		D6F6CD832B07620400E3B54A /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F6CD822B07620400E3B54A /* extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		D692411C2AEB9C85001FFCD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D692411E2AEB9C87001FFCD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D69241212AEB9C87001FFCD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D692412B2AEBA80B001FFCD5 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
+		D692412F2AEBAAFB001FFCD5 /* PickerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViews.swift; sourceTree = "<group>"; };
+		D69241312AEBB579001FFCD5 /* TotalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalsView.swift; sourceTree = "<group>"; };
+		D6F6CD822B07620400E3B54A /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,9 @@
 		D69241192AEB9C85001FFCD5 /* Calcular */ = {
 			isa = PBXGroup;
 			children = (
+				D6F6CD812B0761E400E3B54A /* extension */,
+				D692412A2AEBA7EB001FFCD5 /* Views */,
 				D692411A2AEB9C85001FFCD5 /* CalcularApp.swift */,
-				D692411C2AEB9C85001FFCD5 /* ContentView.swift */,
 				D692411E2AEB9C87001FFCD5 /* Assets.xcassets */,
 				D69241202AEB9C87001FFCD5 /* Preview Content */,
 			);
@@ -65,6 +74,33 @@
 				D69241212AEB9C87001FFCD5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D692412A2AEBA7EB001FFCD5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D692411C2AEB9C85001FFCD5 /* ContentView.swift */,
+				D69241312AEBB579001FFCD5 /* TotalsView.swift */,
+				D6F6CD802B07617000E3B54A /* keyBoardCustom */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D6F6CD802B07617000E3B54A /* keyBoardCustom */ = {
+			isa = PBXGroup;
+			children = (
+				D692412F2AEBAAFB001FFCD5 /* PickerViews.swift */,
+				D692412B2AEBA80B001FFCD5 /* KeyBoardView.swift */,
+			);
+			path = keyBoardCustom;
+			sourceTree = "<group>";
+		};
+		D6F6CD812B0761E400E3B54A /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				D6F6CD822B07620400E3B54A /* extension.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69241322AEBB579001FFCD5 /* TotalsView.swift in Sources */,
+				D69241302AEBAAFB001FFCD5 /* PickerViews.swift in Sources */,
+				D692412C2AEBA80B001FFCD5 /* KeyBoardView.swift in Sources */,
+				D6F6CD832B07620400E3B54A /* extension.swift in Sources */,
 				D692411D2AEB9C85001FFCD5 /* ContentView.swift in Sources */,
 				D692411B2AEB9C85001FFCD5 /* CalcularApp.swift in Sources */,
 			);

@@ -12,6 +12,7 @@ struct CalcularApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .tint(.red)
         }
     }
 }
